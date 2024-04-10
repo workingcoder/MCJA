@@ -1,0 +1,47 @@
+# Customized Strategy Config
+
+prefix: RegDB
+
+# Setting for Data
+dataset: regdb
+image_size: (384, 192)
+sample_method: norm_triplet
+p_size: 4
+k_size: 32
+batch_size: 128
+
+# Settings for Augmentation
+random_flip: true
+random_crop: true
+random_erase: true
+color_jitter: true
+padding: 10
+vimc_wg: true
+vimc_cc: true
+vimc_sj: true
+
+# Settings for Model
+drop_last_stride: false
+mda_ratio: 2
+mda_m: 12
+
+# Setting for Loss
+loss_id: true
+loss_cmr: true
+
+# Settings for Training
+lr: 0.00035
+wd: 0.0005
+num_epoch: 300
+lr_step: [ 300 ]
+fp16: true
+
+# Settings for Logging
+start_eval: 0
+log_period: 5
+eval_interval: 1
+
+# Settings for Testing
+resume: ''
+mser: true
+test_only: false
