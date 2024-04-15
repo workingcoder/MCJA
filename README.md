@@ -35,7 +35,7 @@ Based on the global feature only, our method outperforms existing methods by a l
 ## Requirements
 
 The code of this repository is designed to run on a single GPU. 
-The [requirements.txt](./requirements.txt) lists the Python packages and their corresponding versions during the execution of our experiments:
+Here are the Python packages and their corresponding versions during the execution of our experiments:
 
 - Python 3.8
 - apex==0.1
@@ -49,7 +49,9 @@ The [requirements.txt](./requirements.txt) lists the Python packages and their c
 - yacs==0.1.8
 
 *Notes:*
-Higher or Lower versions of these packages might be supported. 
+When installing the 'apex' package, please refer to its [official repository - apex](https://github.com/NVIDIA/apex).
+
+*P.S.* Higher or Lower versions of these packages might be supported. 
 When attempting to use a different version of PyTorch, please be mindful of the compatibility with pytorch_ignite, torchsort, etc.
 
 
@@ -77,7 +79,7 @@ python main.py --cfg configs/RegDB_MCJA.yml --gpu 0 --seed 8 --desc MCJA
 
 ### Test
 
-When conducting tests only, set 'test_only' to true in the 'XXXX.yml' configuration file and specify the path for loading the model in the resume setting. 
+When conducting tests only, set 'test_only' to true in the 'XXXX.yml' configuration file and specify the path for loading the model in the 'resume' setting. 
 Then, execute the same command as mentioned above to complete the testing and evaluation:
 
 ```bash
