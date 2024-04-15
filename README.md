@@ -1,6 +1,6 @@
 # Bridging the Gap: Multi-level Cross-modality Joint Alignment for Visible-infrared Person Re-identification
 
-By [Tengfei Liang](https://scholar.google.com/citations?user=YE6fPvgAAAAJ&hl=en),  [Yi Jin](https://scholar.google.com/citations?user=NQAenU0AAAAJ&hl=en),  [Wu Liu](https://scholar.google.com/citations?user=rQpizr0AAAAJ&hl=en),  [Tao Wang](https://scholar.google.com/citations?user=F3C5oAcAAAAJ&hl=en&oi=sra),  [Songhe Feng](https://scholar.google.com/citations?user=K5lqMYgAAAAJ&hl=en),  [Yidong Li](https://scholar.google.com/citations?hl=en&user=3PagRQEAAAAJ).
+By [Tengfei Liang](https://scholar.google.com/citations?user=YE6fPvgAAAAJ),  [Yi Jin](https://scholar.google.com/citations?user=NQAenU0AAAAJ),  [Wu Liu](https://scholar.google.com/citations?user=rQpizr0AAAAJ),  [Tao Wang](https://scholar.google.com/citations?user=F3C5oAcAAAAJ),  [Songhe Feng](https://scholar.google.com/citations?user=K5lqMYgAAAAJ),  [Yidong Li](https://scholar.google.com/citations?user=3PagRQEAAAAJ).
 
 This repository is an official implementation of the paper [Bridging the Gap: Multi-level Cross-modality Joint Alignment for Visible-infrared Person Re-identification](https://ieeexplore.ieee.org/abstract/document/10472470). [`IEEEXplore`](https://ieeexplore.ieee.org/abstract/document/10472470) [`Google Drive`](https://drive.google.com/file/d/19-2f-gTj3P9tV-YhabtVpXSgShxFrGrs/view?usp=sharing)
 
